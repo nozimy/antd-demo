@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Acrobat';
+    src: url('../fonts/acrobat/Akrobat-Regular.eot');
+    src: url('../fonts/acrobat/Akrobat-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/acrobat/Akrobat-Regular.woff') format('woff'),
+         url('../fonts/acrobat/Akrobat-Regular.ttf') format('truetype'),
+         url('../fonts/acrobat/Akrobat-Regular.svg#AcrobatLigt') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.lvk-header{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+.lvk-header a{
+    color: #4b2c44;
+    text-decoration: none;
+}
+
+.lvk-brand-wrapper, .search-bar{
+    height: 70px;
+    float: left;
+}
+.lvk-header-brand {
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.lvk-header li a {
+    text-transform: uppercase;
+}
+.lvk-header-title {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+.lvk-header-title > span {
+    color: #a495a1;
+    font-size: 16px;
+}
+
+.lvk-header .lvk-header-brand{
+    font-size: 24px;
+}
+
+.lvk-header-nav{
+    list-style: none;
+    padding: 0 5px;
+}
+.lvk-header-nav > li {
+    white-space: nowrap;
+    display: inline-block;
+    float: left;
+    padding: 2px 4px;
+    text-align: center;
+}
+.lvk-header-nav > li > a {
+    color: #a495a1;
+    font-size: 12px;
+}
+.lvk-header-nav > li > a > span {
+    display: block;
+    text-align: center;
+}
+.lvk-header-nav > li > a > span.before-icon{
+    color: #ff3380;
+    font-size: 32px;
+}
+.lvk-header-nav > li > span.text {
+    vertical-align: baseline;
+}
+
+.lvk-header-nav > li.active > a, .lvk-header-nav > li> a:hover {
+    color: #4b2c44;
+}
+
+.lvk-main-header-menu{
+    float: right !important;
+}
+.lvk-user-controls-tab {
+    float: right !important;
+    height: 55px;
+    display: table;
+}
+.lvk-user-controls-tab > a{
+    display: table-cell;
+    vertical-align: middle;
+}
+.lvk-user-controls-tab .user-name {
+    font-size: 14px;
+    font-family: 'AcrobatExtraBold';
+    vertical-align: middle;
+    line-height: 13px;
+    margin-right: 5px;
+    padding-right: 5px;
+
+    text-align: right;
+}
+.lvk-user-controls-tab .user-btns{
+    display: table-cell;
+    vertical-align: middle;
+}
+.lvk-user-controls-tab .user-avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.lvk-user-controls-tab .user-avatar img {
+    width: 100%;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.header-right-block{
+    height: 70px;
+    float: right !important;
+    position: relative;
+    width: 330px;
+}
+
+.header-right-block > div{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+
+}
+
+.search-bar{
+    margin-top: 24px;
+}
+
+.lvk-header #search-query{
+    outline: none;
+    border: 1px solid #CFCBC8;
+    width: 240px;
+    top: 50%;
+    background: #fff;
+    padding: 6px 10px;
+    height: 40px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 3px 0 0 3px;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+}
+
+.search-input-wrapper, .search-button-wrapper{
+    white-space: nowrap;
+    float: left;
+}
+.search-input-wrapper{
+    width: auto;
+}
+.search-button-wrapper > button{
+    outline: none;
+    height: 40px;
+    font-size: 26px;
+    border-radius: 0 3px 3px 0;
+    background-color:  #ff3380;
+    color: #fff;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* ===========================================================================================*/
+.breadcrumb-wrapper {
+    background: #f8f4ec;
+    padding: 5px 0 5px;
+}
+
+
+
+
+
